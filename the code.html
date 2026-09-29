@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sama Diaa | AI Engineer & Data Analyst</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cyan: '#06b6d4',
+              blue: '#3b82f6',
+              dark: '#0f172a',
+              card: '#1e293b'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0b0f19] text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-[#0b0f19]/80 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="text-cyan-400">&lt;</span>Sama Diaa<span class="text-cyan-400">/&gt;</span>
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+        <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+        <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+        <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+      </div>
+      <a href="#contact" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-cyan-400 border border-cyan-500/30 rounded-lg hover:bg-cyan-500/10 transition-all">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="max-w-6xl mx-auto px-6 pt-24 pb-20 md:pt-32 md:pb-28">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-cyan-950/60 border border-cyan-800/50 text-cyan-300 mb-6">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        Digital Egypt Pioneers Initiative (DEPI) Fellow
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+        Engineering Intelligent <br />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Agentic & Generative AI</span> Systems.
+      </h1>
+      <p class="text-lg text-slate-400 leading-relaxed mb-8">
+        AI Engineer & Data Analyst specializing in Autonomous AI Agents, RAG Pipelines, Neural Network deployment, and actionable business intelligence dashboards.
+      </p>
+      <div class="flex flex-wrap items-center gap-4">
+        <a href="#projects" class="px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium shadow-lg shadow-cyan-500/20 hover:opacity-95 transition-all">
+          Explore Projects
+        </a>
+        <a href="#contact" class="px-6 py-3 rounded-lg border border-slate-700 bg-slate-800/40 text-slate-300 font-medium hover:bg-slate-800 hover:text-white transition-all">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Core Skills -->
+  <section id="skills" class="py-20 border-t border-slate-800/60 bg-slate-900/20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-white mb-2">Technical Competencies</h2>
+      <p class="text-sm text-slate-400 mb-10">Architectures, tools, and languages utilized in production and research</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- AI & ML -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-slate-700 transition-all">
+          <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3 class="text-base font-semibold text-white mb-3">AI & ML Systems</h3>
+          <ul class="text-sm text-slate-400 space-y-2">
+            <li>• Agentic AI & RAG Workflows</li>
+            <li>• Artificial Neural Networks (ANN)</li>
+            <li>• Constraint Satisfaction (CSP)</li>
+            <li>• Search Algorithms (A*, Hill Climbing)</li>
+          </ul>
+        </div>
+
+        <!-- Programming & Backend -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-slate-700 transition-all">
+          <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="text-base font-semibold text-white mb-3">Development & API</h3>
+          <ul class="text-sm text-slate-400 space-y-2">
+            <li>• Python & C++</li>
+            <li>• FastAPI & REST Endpoints</li>
+            <li>• Object-Oriented Design (OOP)</li>
+            <li>• Data Structures & Logic Design</li>
+          </ul>
+        </div>
+
+        <!-- Data & Analytics -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-slate-700 transition-all">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <h3 class="text-base font-semibold text-white mb-3">Data Analytics & BI</h3>
+          <ul class="text-sm text-slate-400 space-y-2">
+            <li>• SQL & Database Querying</li>
+            <li>• Power BI Dashboards</li>
+            <li>• Tableau Visualizations</li>
+            <li>• Advanced Excel & Data Cleaning</li>
+          </ul>
+        </div>
+
+        <!-- Security & Infrastructure -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-slate-700 transition-all">
+          <div class="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="text-base font-semibold text-white mb-3">Security & Systems</h3>
+          <ul class="text-sm text-slate-400 space-y-2">
+            <li>• Zero Trust Frameworks</li>
+            <li>• Live Entropy & Cryptography</li>
+            <li>• Subnetting & Routing (VLSM)</li>
+            <li>• Technical B2B Architecture</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section id="projects" class="py-20 max-w-6xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-white mb-2">Featured Projects</h2>
+    <p class="text-sm text-slate-400 mb-10">Production implementations, algorithms, and AI research projects</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Project 1 -->
+      <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-cyan-400">Agentic & Generative AI</span>
+          <h3 class="text-lg font-bold text-white mt-1 mb-3">Multi-Agent Workflow Pipelines (DEPI)</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+            Constructed autonomous AI agent workflows leveraging dynamic tool-calling, multi-step reasoning, and contextual RAG architectures for dynamic information retrieval.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+          <span class="px-2 py-1 bg-slate-800 rounded">LangChain</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">RAG</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">LLM Agents</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">Python</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-cyan-400">Recommendation Engine</span>
+          <h3 class="text-lg font-bold text-white mt-1 mb-3">ATHATHI Smart Platform</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+            Engineered the AI recommendation backend logic and data pipelines delivering high-accuracy furniture matches aligned with spatial dimensions and user aesthetic profiles.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+          <span class="px-2 py-1 bg-slate-800 rounded">Python</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">ML Recommenders</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">Backend Logic</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-cyan-400">Computer Vision & API</span>
+          <h3 class="text-lg font-bold text-white mt-1 mb-3">Typography Character Classifier & FastAPI</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+            Trained an Artificial Neural Network (ANN) to classify diverse font glyphs and deployed real-time inference via an asynchronous, production-ready FastAPI endpoint.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+          <span class="px-2 py-1 bg-slate-800 rounded">ANN</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">FastAPI</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">Deep Learning</span>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-cyan-400">Algorithm Optimization</span>
+          <h3 class="text-lg font-bold text-white mt-1 mb-3">CSP Rubik's Cube & A* Search Solvers</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">
+            Implemented Constraint Satisfaction Problem (CSP) state algorithms for Rubik's Cube alongside an 8-Puzzle solver comparing Manhattan A* heuristic vs. Hill Climbing with a GUI.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+          <span class="px-2 py-1 bg-slate-800 rounded">CSP</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">A* Search</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">Tkinter GUI</span>
+          <span class="px-2 py-1 bg-slate-800 rounded">C++ / Python</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience & Education -->
+  <section id="experience" class="py-20 border-t border-slate-800/60 bg-slate-900/20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-white mb-10">Experience & Credentials</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Professional Work -->
+        <div>
+          <h3 class="text-sm uppercase tracking-wider text-slate-400 font-semibold mb-6">Work Experience</h3>
+          <div class="relative pl-6 border-l border-slate-800 space-y-8">
+            <div class="relative">
+              <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-cyan-400 border-2 border-[#0b0f19]"></span>
+              <h4 class="text-base font-semibold text-white">Technical Solutions & B2B Associate</h4>
+              <p class="text-xs text-cyan-400 mb-2 font-mono">TrafficShieldAi</p>
+              <p class="text-sm text-slate-400 leading-relaxed">
+                Presented Zero Trust and live-entropy cryptographic models to technical directors and national bodies (EG-CERT). Spearheaded enterprise technical outreach following regional summits.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic & Tracks -->
+        <div>
+          <h3 class="text-sm uppercase tracking-wider text-slate-400 font-semibold mb-6">Education & Training</h3>
+          <div class="relative pl-6 border-l border-slate-800 space-y-6">
+            <div class="relative">
+              <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-blue-400 border-2 border-[#0b0f19]"></span>
+              <h4 class="text-base font-semibold text-white">B.Sc. in Artificial Intelligence & Computer Science</h4>
+              <p class="text-xs text-slate-400 mb-1">6th of October University</p>
+            </div>
+            <div class="relative">
+              <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-600 border-2 border-[#0b0f19]"></span>
+              <h4 class="text-base font-semibold text-white">DEPI - Agentic & Generative AI Track</h4>
+              <p class="text-xs text-slate-400 mb-1">Ministry of Communications and Information Technology (MCIT)</p>
+            </div>
+            <div class="relative">
+              <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-600 border-2 border-[#0b0f19]"></span>
+              <h4 class="text-base font-semibold text-white">Data Analytics Track</h4>
+              <p class="text-xs text-slate-400 mb-1">Orange Digital Center & Digital HUB (SQL, Power BI)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact" class="py-16 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-bold text-white mb-3">Let's Connect</h2>
+      <p class="text-slate-400 text-sm max-w-md mx-auto mb-8">
+        Open for AI engineering roles, Agentic pipeline design, and data analytics collaborations.
+      </p>
+      
+      <div class="flex justify-center gap-6 text-slate-400 text-lg mb-8">
+        <a href="sama.awd16@gmail.com" class="hover:text-cyan-400 transition-colors" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/samadiaa" target="_blank" class="hover:text-cyan-400 transition-colors" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/sama-devv" target="_blank" class="hover:text-cyan-400 transition-colors" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <p class="text-xs text-slate-600">© 2026 Sama Diaa Eldeen. Designed for technical presentation.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
